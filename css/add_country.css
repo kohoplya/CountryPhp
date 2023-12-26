@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  min-width: 320;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-size: 60px;
+  background-color: #121212;
+  }
+.page{
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  width: 71.35%;
+  margin: 0 auto; 
+  padding: 0px 15px;
+}
+
+
+/*-------------------------------*/
+
+.form__container {
+  margin-top: 100px;
+  border: 2px solid;
+  border-color: var(--main_color);
+  text-align: center;
+}
+
+#form ul input[type="text"] {
+  width: 50%;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.author_2{
+  margin-top: -40px;
+}
+
+.radio-label{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.form_country{
+  padding-top: 20px;
+}
+
+.tile_country{
+  font-size: 40px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 20px 20px;
+}
+
+.file_title{
+  margin-top: 20px;
+  display: flex;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom_file {
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.input_area {
+  margin-top: 20px;
+}
+
+#area{
+  width: 50%;
+  height: 100px;
+  font-size: 30px;
+}
+
+.submit{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.submit_button{
+  font-size: 30px;
+  background-color: #121212;
+  color: #FFFFFF;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 15px 48px;
+  cursor: pointer;
+}
+
+.error-message{
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.errors{
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}

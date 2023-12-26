@@ -1,0 +1,105 @@
+.green_theme{
+  --main_color: #39623581;
+}
+
+.red_theme{
+  --main_color: #6900057e;
+}
+
+.pink_theme{
+  --main_color: #c882a784;
+}
+
+.blue_theme{
+  --main_color: #2636747a;
+}
+
+/*-----------------------------------------*/
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: var(--main_color);
+}
+
+.add_country_header{
+  padding-top: 25px;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  display: flex;  
+  margin-left: 15px;
+  gap: 20px;
+}
+
+.add_country_header a{
+  color: #FFFFFF;
+}
+
+.add_country_header a:hover{
+  text-decoration: underline;
+}
+.add_country_header p{
+  max-width: 100%;
+}
+
+.header__menu {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.header__list {
+  padding-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+.header__list li {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.header__link{
+  color: #FFFFFF;
+}
+.header__link:hover{
+  text-decoration: underline;
+}
+
+.color_list{
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.color_list li div{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.color_green{
+  background-color: #39623581;
+}
+
+.color_red{
+  background-color: #6900057e;
+}
+
+.color_pink{
+  background-color: #c882a784;
+}
+
+.color_blue{
+  background-color: #2636747a;
+}

@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  min-width: 320;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-size: 60px;
+  background-color: #121212;
+}
+.page{
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  width: 71.35%;
+  margin: 0 auto; 
+  padding: 0px 15px;
+}
+
+/*-------------------------------*/
+
+.info__title span {
+  color: var(--main_color);
+}
+.page_main {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  height: 690px;
+  background-image: url(../img/page_main.png);
+}
+
+.page_title {
+  margin-top: 305px;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+.page_title p{
+  margin-left: 20px;
+  text-align: center;
+  max-width: 90%;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+.page_info {
+  max-width: 40%;
+  margin-top: 215px;
+  flex-basis: 50%;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+}
+
+/*-------------------------------*/
+
+.page_cards__container {
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  border: 5px solid var(--main_color);
+  width: 33%;
+  height: 200px;
+  margin-top: -100px;
+}
+.card_1{
+  background-image: url(../img/card_1.png);
+}
+.card_2{
+  background-image: url(../img/card_2.png);
+}
+.card_3{
+  background-image: url(../img/card_3.png);
+}
+.card_text {
+  margin-top: 66.5px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 67px;
+  color: #FFFFFF;
+}
+.card_link{
+  color: #FFFFFF;
+}
+
+.card_link:hover{
+  text-decoration: underline;
+}
+
+/*-------------------------------*/
+
+.info__title {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 67px;
+  color: #FFFFFF;
+}
+.about_country {
+  margin-top: 50px;
+  display: inline-flex;
+}
+.country {
+  min-width: 30%;
+  text-align: center;
+}
+.name_country {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+.letter_country {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--main_color);
+}
+.info_country {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.country_image{
+  margin-top: 20px;
+  height: 50px;
+}
+.japan{
+  background-image: url(../img/country_1.png);
+}
+.china{
+  background-image: url(../img/country_2.png);
+}
+.south_korea{
+  background-image: url(../img/country_3.png);
+}
+
+/*-------------------------------*/
+
+footer{
+  margin-top: 58px;
+  width: 100%;
+  left: 0px;
+  height: 100px;
+  background: var(--main_color);
+}
+
+.add_country{
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.add_country a{
+  color: #FFFFFF;
+}
+
+.add_country a:hover{
+  text-decoration: underline;
+}
